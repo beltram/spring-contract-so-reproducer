@@ -11,7 +11,7 @@ buildscript {
 		maven("https://repo.spring.io/milestone")
 	}
 	dependencies {
-		val springCloudContractVersion = "2.1.0.RC3"
+		val springCloudContractVersion = "2.1.0.RC2"
 		classpath("org.springframework.cloud:spring-cloud-contract-gradle-plugin:$springCloudContractVersion")
 	}
 }
@@ -24,7 +24,7 @@ plugins {
 
 val springCloudVersion by extra { "Greenwich.RELEASE" }
 val kotlinVersion by extra { "1.3.20" }
-val springCloudContractVersion by extra { "2.1.0.RC3" }
+val springCloudContractVersion by extra { "2.1.0.RC2" }
 
 apply {
 	plugin("kotlin")
